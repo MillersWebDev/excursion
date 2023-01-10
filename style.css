@@ -1,4 +1,12 @@
-top_title{
+html{
+  background-color: black;
+}
+
+a {
+  color:aquamarine
+}
+
+.top_title{
 display: flex;
 font-family: Verdana;
 font-size: 50px;
@@ -6,7 +14,9 @@ color: white;
 justify-content: center;
 }
 
-excursion_hyper_link {
+.excursion_hyper_link{
+display: flex;
+justify-content: center;
+font-family: Verdana;
 font-size: 16px;
-color: Aquamarine;
 }
